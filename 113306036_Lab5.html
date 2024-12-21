@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab5</title>
+	<link rel="stylesheet" type="text/css" href="113306036_Lab5.css">
+</head>
+<body>
+	<div class="input">
+		<input type="text" name="math" id="mathScore" autofocus placeholder=" Math">
+		<input type="text" name="english" id="engScore" autofocus placeholder=" English">
+		<button id="submitBtn">Submit</button>
+		<button id="clearBtn">Clear</button>
+		<button id="refreshBtn">Refresh</button>
+	</div>
+
+	<div class="table">
+		<table id="table">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Math</th>
+					<th>English</th>
+					<th>Average</th>
+				</tr>
+			</thead>
+
+			<tbody>
+			</tbody>
+
+			<tfoot>
+				<tr class="avgRow">
+					<td>Average</td>
+					<td id="mathAvg">0</td>
+					<td id="engAvg">0</td>
+					<td id="allAvg">0</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+
+	<script src="113306036_Lab5.js" charset="utf-8"></script>
+</body>
+</html>
